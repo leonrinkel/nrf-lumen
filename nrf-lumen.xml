@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/leonrinkel/Desktop/nrf-lumen/nrf-lumen.kicad_sch</source>
+    <date>2023 June 11, Sunday 20:35:35</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>nrf-lumen</title>
+        <company>Leon Rinkel</company>
+        <rev>1</rev>
+        <date>2023-06-11</date>
+        <source>nrf-lumen.kicad_sch</source>
+        <comment number="1" value="leon@rinkel.me"/>
+        <comment number="2" value="git.leon.fyi/nrf-lumen"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/">
+      <title_block>
+        <title>nrf-lumen</title>
+        <company>Leon Rinkel</company>
+        <rev>1</rev>
+        <date>2023-06-11</date>
+        <source>nrf.kicad_sch</source>
+        <comment number="1" value="leon@rinkel.me"/>
+        <comment number="2" value="git.leon.fyi/nrf-lumen"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>1000µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="Mfr.">KEMET</field>
+        <field name="Mfr. No">ESK108M6R3AG3AA</field>
+        <field name="Mouser No">80-ESK108M6R3AG3AA</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Mfr." value="KEMET"/>
+      <property name="Mfr. No" value="ESK108M6R3AG3AA"/>
+      <property name="Mouser No" value="80-ESK108M6R3AG3AA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nrf-lumen.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36dd8f6d-2f0e-40a5-be51-2c1e73a1e802</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack_MountingPin</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <datasheet>./datasheets/pj-063ah.pdf</datasheet>
+      <fields>
+        <field name="Mfr.">CUI Devices</field>
+        <field name="Mfr. No">PJ-063AH</field>
+        <field name="Mouser No">490-PJ-063AH</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_MountingPin" description="DC Barrel Jack with a mounting pin"/>
+      <property name="Mouser No" value="490-PJ-063AH"/>
+      <property name="Mfr. No" value="PJ-063AH"/>
+      <property name="Mfr." value="CUI Devices"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nrf-lumen.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29e28b0a-82c4-411d-9678-c7af0c141058</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Mfr.">SparkFun</field>
+        <field name="Mfr. No">PRT-09750</field>
+        <field name="Mouser No">474-PRT-09750</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr." value="SparkFun"/>
+      <property name="Mfr. No" value="PRT-09750"/>
+      <property name="Mouser No" value="474-PRT-09750"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nrf-lumen.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3908c241-6006-4e1f-a11b-c261fb448730</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Mfr.">Diodes Incorporated</field>
+        <field name="Mfr. No">BSS138-7-F</field>
+        <field name="Mouser No">621-BSS138-7-F</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Mfr." value="Diodes Incorporated"/>
+      <property name="Mfr. No" value="BSS138-7-F"/>
+      <property name="Mouser No" value="621-BSS138-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nrf-lumen.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48537eaf-9274-4520-a79b-444b1fe68675</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">YAGEO</field>
+        <field name="Mfr. No">RC0402FR-0710KL</field>
+        <field name="Mouser No">603-RC0402FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr." value="YAGEO"/>
+      <property name="Mfr. No" value="RC0402FR-0710KL"/>
+      <property name="Mouser No" value="603-RC0402FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nrf-lumen.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25c60b32-f92b-4ffa-b305-f9547b5a30dc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">YAGEO</field>
+        <field name="Mfr. No">RC0402FR-0710KL</field>
+        <field name="Mouser No">603-RC0402FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mfr." value="YAGEO"/>
+      <property name="Mfr. No" value="RC0402FR-0710KL"/>
+      <property name="Mouser No" value="603-RC0402FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nrf-lumen.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d1ad416-ece1-4230-8f86-be658af64c23</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM1555C1H120FA01J</field>
+        <field name="Mouser No">81-GRM1555C1H120FA1J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GRM1555C1H120FA1J"/>
+      <property name="Mfr. No" value="GRM1555C1H120FA01J"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>9ef4798f-22f9-46a1-bf02-597c18869e26</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM1555C1H120FA01J</field>
+        <field name="Mouser No">81-GRM1555C1H120FA1J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GRM1555C1H120FA1J"/>
+      <property name="Mfr. No" value="GRM1555C1H120FA01J"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>531da830-f098-401e-a2b1-1f69c5f8bf3d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.5pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GJM1555C1HR50RB12D</field>
+        <field name="Mouser No">81-GJM1555C1HR50RB2D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GJM1555C1HR50RB2D"/>
+      <property name="Mfr. No" value="GJM1555C1HR50RB12D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>1a253b97-9b5c-4922-bb99-adbf4be9c1c0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.8pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GJM1555C1HR80WB01D</field>
+        <field name="Mouser No">81-GJM1555C1HR80WB1D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GJM1555C1HR80WB1D"/>
+      <property name="Mfr. No" value="GJM1555C1HR80WB01D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>5993f50e-3b07-448d-8af4-5af6f3bbb686</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>9pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GJM1555C1H9R0CB01J</field>
+        <field name="Mouser No">81-GJM1555C1H9R0CB1J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GJM1555C1H9R0CB1J"/>
+      <property name="Mfr. No" value="GJM1555C1H9R0CB01J"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>eac58542-0123-48cb-b9cc-967b7d549c84</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>9pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GJM1555C1H9R0CB01J</field>
+        <field name="Mouser No">81-GJM1555C1H9R0CB1J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GJM1555C1H9R0CB1J"/>
+      <property name="Mfr. No" value="GJM1555C1H9R0CB01J"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>2ab88cfa-d168-4bf1-9510-493a2daeb0e9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRT188C71C475KE13D</field>
+        <field name="Mouser No">81-GRT188C71C475KE13</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRT188C71C475KE13D"/>
+      <property name="Mouser No" value="81-GRT188C71C475KE13"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>e99bc028-d716-45e8-ad2f-330bb532bd05</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRT188C71C475KE13D</field>
+        <field name="Mouser No">81-GRT188C71C475KE13</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GRT188C71C475KE13"/>
+      <property name="Mfr. No" value="GRT188C71C475KE13D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>b1ea9e46-065a-48b1-9d8b-a79eda8541ef</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRT188C71C475KE13D</field>
+        <field name="Mouser No">81-GRT188C71C475KE13</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRT188C71C475KE13D"/>
+      <property name="Mouser No" value="81-GRT188C71C475KE13"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>6c7c7172-972f-4298-91de-5b81155420f3</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRT188R61H105KE13D</field>
+        <field name="Mouser No">81-GRT188R61H105KE3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRT188R61H105KE13D"/>
+      <property name="Mouser No" value="81-GRT188R61H105KE3D"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>d371a418-ca50-4004-b162-2b600b6f1373</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRT188R61H105KE13D</field>
+        <field name="Mouser No">81-GRT188R61H105KE3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GRT188R61H105KE3D"/>
+      <property name="Mfr. No" value="GRT188R61H105KE13D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>96bc9953-1e7d-46b9-b84c-cfd17b92640b</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRT188C71C475KE13D</field>
+        <field name="Mouser No">81-GRT188C71C475KE13</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRT188C71C475KE13D"/>
+      <property name="Mouser No" value="81-GRT188C71C475KE13"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>9ec6024c-8ae2-473b-bb24-050e280959e2</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM155R71A104KA01D</field>
+        <field name="Mouser No">81-GRM155R71A104KA1D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRM155R71A104KA01D"/>
+      <property name="Mouser No" value="81-GRM155R71A104KA1D"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>f0635f5b-1eaf-4e1c-bd42-296378e9c8b9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM155C71H473JE19D</field>
+        <field name="Mouser No">81-GRM155C71H473JE9D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GRM155C71H473JE9D"/>
+      <property name="Mfr. No" value="GRM155C71H473JE19D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>75b8df94-f78f-42c9-a985-42e7a81c8707</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM155R71A104KA01D</field>
+        <field name="Mouser No">81-GRM155R71A104KA1D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRM155R71A104KA01D"/>
+      <property name="Mouser No" value="81-GRM155R71A104KA1D"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>74fb63ca-f7e3-4349-8efc-918de6637b4f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM155R71A104KA01D</field>
+        <field name="Mouser No">81-GRM155R71A104KA1D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRM155R71A104KA01D"/>
+      <property name="Mouser No" value="81-GRM155R71A104KA1D"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>c6d204c5-9a5a-4965-9cfb-6c62b0b03e00</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM1555C1H101JA01D</field>
+        <field name="Mouser No">81-GRM1555C1H101JA1D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mouser No" value="81-GRM1555C1H101JA1D"/>
+      <property name="Mfr. No" value="GRM1555C1H101JA01D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>ba79f10c-b4a9-49c4-811a-7d3ce70fdc9d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">GRM155R71A104KA01D</field>
+        <field name="Mouser No">81-GRM155R71A104KA1D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="GRM155R71A104KA01D"/>
+      <property name="Mouser No" value="81-GRM155R71A104KA1D"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>d16f1468-d33b-4f3d-ad59-49746433f570</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">LQW15AN4N7B00D</field>
+        <field name="Mouser No">81-LQW15AN4N7B00D</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Mouser No" value="81-LQW15AN4N7B00D"/>
+      <property name="Mfr. No" value="LQW15AN4N7B00D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>18baaf74-9339-47cf-8bba-b89a8bce514b</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>10µH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">LQM18DZ100M70L</field>
+        <field name="Mouser No">81-LQM18DZ100M70L</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Mfr. No" value="LQM18DZ100M70L"/>
+      <property name="Mouser No" value="81-LQM18DZ100M70L"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>a859f1b5-2241-4992-8c56-63b06e9c3511</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>10µH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">LQM18DZ100M70L</field>
+        <field name="Mouser No">81-LQM18DZ100M70L</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Mouser No" value="81-LQM18DZ100M70L"/>
+      <property name="Mfr. No" value="LQM18DZ100M70L"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>699e1228-891e-425c-8ca1-3daeb6987363</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>15nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">Murata Electronics</field>
+        <field name="Mfr. No">LQG15HS15NG02D</field>
+        <field name="Mouser No">81-LQG15HS15NG02D</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Mouser No" value="81-LQG15HS15NG02D"/>
+      <property name="Mfr. No" value="LQG15HS15NG02D"/>
+      <property name="Mfr." value="Murata Electronics"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>902239db-13db-4365-9ff4-ec4b7944bdf4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mfr.">YAGEO</field>
+        <field name="Mfr. No">RC0402FR-0710KL</field>
+        <field name="Mouser No">603-RC0402FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mouser No" value="603-RC0402FR-0710KL"/>
+      <property name="Mfr. No" value="RC0402FR-0710KL"/>
+      <property name="Mfr." value="YAGEO"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>426373a9-9a46-4026-be11-ae2cc6b63024</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>d64cc04b-ea37-49fc-bf9b-9ec73678dffd</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>21594c9f-dcfd-4599-8a69-24486a73ee11</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>nRF52840</value>
+      <footprint>Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm</footprint>
+      <datasheet>http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</datasheet>
+      <fields>
+        <field name="Mfr.">Nordic Semiconductor</field>
+        <field name="Mfr. No">NRF52840-QIAA-R7</field>
+        <field name="Mouser No">949-NRF52840-QIAA-R7</field>
+      </fields>
+      <libsource lib="MCU_Nordic" part="nRF52840" description="Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"/>
+      <property name="Mouser No" value="949-NRF52840-QIAA-R7"/>
+      <property name="Mfr. No" value="NRF52840-QIAA-R7"/>
+      <property name="Mfr." value="Nordic Semiconductor"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>238d4e36-c559-4f6e-a8e0-e5011c7bf4ad</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32MHz</value>
+      <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
+      <fields>
+        <field name="Mfr.">ABRACON</field>
+        <field name="Mfr. No">ABM11W-32.0000MHZ-8-D1X-T3</field>
+        <field name="Mouser No">815-11W32-8D1XT</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Mouser No" value="815-11W32-8D1XT"/>
+      <property name="Mfr. No" value="ABM11W-32.0000MHZ-8-D1X-T3"/>
+      <property name="Mfr." value="ABRACON"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>27f4e75d-4546-40d4-ba75-84efbd809f9d</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <fields>
+        <field name="Mfr.">ABRACON</field>
+        <field name="Mfr. No">ABS07-32.768KHZ-7-T</field>
+        <field name="Mouser No">815-ABS07-32.768K7T</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Mouser No" value="815-ABS07-32.768K7T"/>
+      <property name="Mfr. No" value="ABS07-32.768KHZ-7-T"/>
+      <property name="Mfr." value="ABRACON"/>
+      <property name="Sheetname" value="NRF"/>
+      <property name="Sheetfile" value="nrf.kicad_sch"/>
+      <sheetpath names="/NRF/" tstamps="/cbf2e217-eca9-43bd-8991-0194004a93ea/"/>
+      <tstamps>3aaaf5c2-a9d9-4a39-88bc-efda1bc7d0d2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_MountingPin">
+      <description>DC Barrel Jack with a mounting pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna_Shield">
+      <description>Antenna with extra pin for shielding</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Shield</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="Shield" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Nordic" part="nRF52840">
+      <description>Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73</description>
+      <docs>http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</docs>
+      <footprints>
+        <fp>Nordic*AQFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">nRF52840</field>
+        <field name="Footprint">Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm</field>
+        <field name="Datasheet">http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</field>
+      </fields>
+      <pins>
+        <pin num="A8" name="AIN7/P0.31" type="bidirectional"/>
+        <pin num="A10" name="AIN5/P0.29" type="bidirectional"/>
+        <pin num="A12" name="AIN0/P0.02" type="bidirectional"/>
+        <pin num="A14" name="P1.15" type="bidirectional"/>
+        <pin num="A16" name="P1.13" type="bidirectional"/>
+        <pin num="A18" name="DEC2" type="passive"/>
+        <pin num="A20" name="P1.10" type="bidirectional"/>
+        <pin num="A22" name="VDD" type="passive"/>
+        <pin num="A23" name="XC2" type="input"/>
+        <pin num="AA24" name="SWDCLK" type="input"/>
+        <pin num="AB2" name="DCCH" type="power_out"/>
+        <pin num="AC5" name="DECUSB" type="passive"/>
+        <pin num="AC9" name="P0.14" type="bidirectional"/>
+        <pin num="AC11" name="P0.16" type="bidirectional"/>
+        <pin num="AC13" name="P0.18/~{RESET}" type="bidirectional"/>
+        <pin num="AC15" name="P0.19" type="bidirectional"/>
+        <pin num="AC17" name="P0.21" type="bidirectional"/>
+        <pin num="AC19" name="P0.23" type="bidirectional"/>
+        <pin num="AC21" name="P0.25" type="bidirectional"/>
+        <pin num="AC24" name="SWDIO" type="bidirectional"/>
+        <pin num="AD2" name="VBUS" type="power_in"/>
+        <pin num="AD4" name="D-" type="bidirectional"/>
+        <pin num="AD6" name="D+" type="bidirectional"/>
+        <pin num="AD8" name="P0.13" type="bidirectional"/>
+        <pin num="AD10" name="P0.15" type="bidirectional"/>
+        <pin num="AD12" name="P0.17" type="bidirectional"/>
+        <pin num="AD14" name="VDD" type="passive"/>
+        <pin num="AD16" name="P0.20" type="bidirectional"/>
+        <pin num="AD18" name="P0.22" type="bidirectional"/>
+        <pin num="AD20" name="P0.24" type="bidirectional"/>
+        <pin num="AD22" name="TRACEDATA0/P1.00" type="bidirectional"/>
+        <pin num="AD23" name="VDD" type="passive"/>
+        <pin num="B1" name="VDD" type="power_in"/>
+        <pin num="B3" name="DCC" type="power_out"/>
+        <pin num="B5" name="DEC4" type="passive"/>
+        <pin num="B7" name="VSS" type="power_in"/>
+        <pin num="B9" name="AIN6/P0.30" type="bidirectional"/>
+        <pin num="B11" name="AIN4/P0.28" type="bidirectional"/>
+        <pin num="B13" name="AIN1/P0.03" type="bidirectional"/>
+        <pin num="B15" name="P1.14" type="bidirectional"/>
+        <pin num="B17" name="P1.12" type="bidirectional"/>
+        <pin num="B19" name="P1.11" type="bidirectional"/>
+        <pin num="B24" name="XC1" type="input"/>
+        <pin num="C1" name="DEC1" type="passive"/>
+        <pin num="D2" name="XL1/P0.00" type="bidirectional"/>
+        <pin num="D23" name="DEC3" type="passive"/>
+        <pin num="E24" name="DEC6" type="passive"/>
+        <pin num="EP" name="VSS" type="passive"/>
+        <pin num="F2" name="XL2/P0.01" type="bidirectional"/>
+        <pin num="F23" name="VSS_PA" type="power_in"/>
+        <pin num="G1" name="P0.26" type="bidirectional"/>
+        <pin num="H2" name="P0.27" type="bidirectional"/>
+        <pin num="H23" name="ANT" type="passive"/>
+        <pin num="J1" name="AIN2/P0.04" type="bidirectional"/>
+        <pin num="J24" name="NFC2/P0.10" type="bidirectional"/>
+        <pin num="K2" name="AIN3/P0.05" type="bidirectional"/>
+        <pin num="L1" name="P0.06" type="bidirectional"/>
+        <pin num="L24" name="NFC1/P0.09" type="bidirectional"/>
+        <pin num="M2" name="TRACECLK/P0.07" type="bidirectional"/>
+        <pin num="N1" name="P0.08" type="bidirectional"/>
+        <pin num="N24" name="DEC5" type="passive"/>
+        <pin num="P2" name="P1.08" type="bidirectional"/>
+        <pin num="P23" name="P1.07" type="bidirectional"/>
+        <pin num="R1" name="TRACEDATA3/P1.09" type="bidirectional"/>
+        <pin num="R24" name="P1.06" type="bidirectional"/>
+        <pin num="T2" name="TRACEDATA2/P0.11" type="bidirectional"/>
+        <pin num="T23" name="P1.05" type="bidirectional"/>
+        <pin num="U1" name="TRACEDATA1/P0.12" type="bidirectional"/>
+        <pin num="U24" name="P1.04" type="bidirectional"/>
+        <pin num="V23" name="P1.03" type="bidirectional"/>
+        <pin num="W1" name="VDD" type="passive"/>
+        <pin num="W24" name="P1.02" type="bidirectional"/>
+        <pin num="Y2" name="VDDH" type="power_in"/>
+        <pin num="Y23" name="P1.01" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Nordic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Nordic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="Y2" pinfunction="VDDH" pintype="power_in"/>
+    </net>
+    <net code="2" name="/NRF/DCC">
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="B3" pinfunction="DCC" pintype="power_out"/>
+    </net>
+    <net code="3" name="/NRF/DCCH">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="AB2" pinfunction="DCCH" pintype="power_out"/>
+    </net>
+    <net code="4" name="/NRF/DEC1">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="C1" pinfunction="DEC1" pintype="passive"/>
+    </net>
+    <net code="5" name="/NRF/DEC3">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="D23" pinfunction="DEC3" pintype="passive"/>
+    </net>
+    <net code="6" name="/NRF/DEC46">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="B5" pinfunction="DEC4" pintype="passive"/>
+      <node ref="U1" pin="E24" pinfunction="DEC6" pintype="passive"/>
+    </net>
+    <net code="7" name="/NRF/DECUSB">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="AC5" pinfunction="DECUSB" pintype="passive"/>
+    </net>
+    <net code="8" name="/NRF/DOUT">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="L1" pinfunction="P0.06" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/NRF/SWDCLK">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="AA24" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="10" name="/NRF/SWDIO">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="AC24" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/NRF/~{RESET}">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="AC13" pinfunction="P0.18/~{RESET}" pintype="bidirectional"/>
+      <node ref="U1" pin="AC15" pinfunction="P0.19" pintype="bidirectional"/>
+      <node ref="U1" pin="AC17" pinfunction="P0.21" pintype="bidirectional"/>
+      <node ref="U1" pin="AC19" pinfunction="P0.23" pintype="bidirectional"/>
+      <node ref="U1" pin="AC21" pinfunction="P0.25" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="B7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="EP" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="F23" pinfunction="VSS_PA" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(AE1-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="B24" pinfunction="XC1" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="A23" pinfunction="XC2" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="H23" pinfunction="ANT" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="D2" pinfunction="XL1/P0.00" pintype="bidirectional"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="F2" pinfunction="XL2/P0.01" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(L3-Pad2)">
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="VBUS">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="AD2" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="22" name="VDD">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="A22" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="AD14" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="AD23" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="B1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="W1" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(U1-PadA8)">
+      <node ref="U1" pin="A8" pinfunction="AIN7/P0.31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PadA10)">
+      <node ref="U1" pin="A10" pinfunction="AIN5/P0.29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PadA12)">
+      <node ref="U1" pin="A12" pinfunction="AIN0/P0.02" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-PadA14)">
+      <node ref="U1" pin="A14" pinfunction="P1.15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-PadA16)">
+      <node ref="U1" pin="A16" pinfunction="P1.13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-PadA18)">
+      <node ref="U1" pin="A18" pinfunction="DEC2" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-PadA20)">
+      <node ref="U1" pin="A20" pinfunction="P1.10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PadAC9)">
+      <node ref="U1" pin="AC9" pinfunction="P0.14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PadAC11)">
+      <node ref="U1" pin="AC11" pinfunction="P0.16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-PadAD4)">
+      <node ref="U1" pin="AD4" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-PadAD6)">
+      <node ref="U1" pin="AD6" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-PadAD8)">
+      <node ref="U1" pin="AD8" pinfunction="P0.13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-PadAD10)">
+      <node ref="U1" pin="AD10" pinfunction="P0.15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-PadAD12)">
+      <node ref="U1" pin="AD12" pinfunction="P0.17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-PadAD16)">
+      <node ref="U1" pin="AD16" pinfunction="P0.20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-PadAD18)">
+      <node ref="U1" pin="AD18" pinfunction="P0.22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-PadAD20)">
+      <node ref="U1" pin="AD20" pinfunction="P0.24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-PadAD22)">
+      <node ref="U1" pin="AD22" pinfunction="TRACEDATA0/P1.00" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-PadB9)">
+      <node ref="U1" pin="B9" pinfunction="AIN6/P0.30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-PadB11)">
+      <node ref="U1" pin="B11" pinfunction="AIN4/P0.28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-PadB13)">
+      <node ref="U1" pin="B13" pinfunction="AIN1/P0.03" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-PadB15)">
+      <node ref="U1" pin="B15" pinfunction="P1.14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-PadB17)">
+      <node ref="U1" pin="B17" pinfunction="P1.12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-PadB19)">
+      <node ref="U1" pin="B19" pinfunction="P1.11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-PadG1)">
+      <node ref="U1" pin="G1" pinfunction="P0.26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-PadH2)">
+      <node ref="U1" pin="H2" pinfunction="P0.27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-PadJ1)">
+      <node ref="U1" pin="J1" pinfunction="AIN2/P0.04" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-PadJ24)">
+      <node ref="U1" pin="J24" pinfunction="NFC2/P0.10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-PadK2)">
+      <node ref="U1" pin="K2" pinfunction="AIN3/P0.05" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-PadL24)">
+      <node ref="U1" pin="L24" pinfunction="NFC1/P0.09" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-PadM2)">
+      <node ref="U1" pin="M2" pinfunction="TRACECLK/P0.07" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-PadN1)">
+      <node ref="U1" pin="N1" pinfunction="P0.08" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-PadN24)">
+      <node ref="U1" pin="N24" pinfunction="DEC5" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-PadP2)">
+      <node ref="U1" pin="P2" pinfunction="P1.08" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-PadP23)">
+      <node ref="U1" pin="P23" pinfunction="P1.07" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-PadR1)">
+      <node ref="U1" pin="R1" pinfunction="TRACEDATA3/P1.09" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-PadR24)">
+      <node ref="U1" pin="R24" pinfunction="P1.06" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-PadT2)">
+      <node ref="U1" pin="T2" pinfunction="TRACEDATA2/P0.11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-PadT23)">
+      <node ref="U1" pin="T23" pinfunction="P1.05" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-PadU1)">
+      <node ref="U1" pin="U1" pinfunction="TRACEDATA1/P0.12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-PadU24)">
+      <node ref="U1" pin="U24" pinfunction="P1.04" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-PadV23)">
+      <node ref="U1" pin="V23" pinfunction="P1.03" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-PadW24)">
+      <node ref="U1" pin="W24" pinfunction="P1.02" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-PadY23)">
+      <node ref="U1" pin="Y23" pinfunction="P1.01" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
