@@ -8,7 +8,9 @@ nRF52840 NeoPixel controller board
 
 ## Initialization
 
-Make sure you have a proper Zephyr development environment according to the official documentation.
+> [!IMPORTANT]
+> Make sure you have a proper Zephyr development environment according to the
+> official documentation.
 
 ```sh
 west init -m https://git.leon.fyi/lumen-sdk --mr main lumen-workspace # or
@@ -20,7 +22,8 @@ west update
 ## Building
 
 ```sh
-west build -b lumen lumen-sdk/app
+west build -b lumen lumen-sdk/app # or
+west build -b lumen lumen-sdk/app -- -DOVERLAY_CONFIG=debug.conf
 ```
 
 ## Flashing
@@ -30,6 +33,20 @@ west flash --runner jlink # or
 west flash --runner pyocd
 ```
 
+## Over-The-Air Update
+
+Building automatically produces an `app_update.bin` file in the `build/zephyr`
+directory. This file can be used to update firmware using the
+[nRF Connect Device Manager][1].
+
+
 ## License
 
-Please see [hardware/LICENSE](hardware/LICENSE) and [lumen-sdk](https://git.leon.fyi/lumen-sdk). The software side of this project is based on [Zephyr](https://www.zephyrproject.org) which is mostly licensed under the [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0) license.
+Please see [hardware/LICENSE](hardware/LICENSE) and [lumen-sdk][2]. The software
+side of this project is based on [Zephyr][3] which is mostly licensed under the
+[Apache-2.0][4] license.
+
+[1]: https://www.nordicsemi.com/Products/Development-tools/nrf-connect-device-manager
+[2]: https://git.leon.fyi/lumen-sdk
+[3]: https://www.zephyrproject.org
+[4]: http://www.apache.org/licenses/LICENSE-2.0
